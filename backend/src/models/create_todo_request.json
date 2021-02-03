@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "The Root Schema",
+  "properties": {
+    "createdAt": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dueDate": {
+      "type": "string"
+    },
+    "done": {
+      "type": "boolean",
+      "default": false
+    },
+    "attachmentUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "required": [
+    "createdAt",
+    "name",
+    "dueDate"
+  ]
+}
